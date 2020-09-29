@@ -1,8 +1,8 @@
 {
   "name": "faven",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Paul Lakra",
+  "homepage": "https://facebook.com/paul.lakra",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,6 +12,11 @@
     "e2e": "ng e2e",
     "resources": "cordova-res ios && cordova-res android && node scripts/resources.js"
   },
+  "contributors": [
+    Jayanti Ragini Bakhla
+    Akancha Minj
+    Nisha Munda
+  ],
   "private": true,
   "dependencies": {
     "@angular-devkit/schematics": "^10.1.3",
