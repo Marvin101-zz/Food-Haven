@@ -2,7 +2,7 @@
   "name": "faven",
   "version": "0.0.1",
   "author": "Paul Lakra",
-  "homepage": "https://facebook.com/paul.lakra",
+  "Facebook Page": "https://facebook.com/paul.lakra",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,6 +11,17 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "resources": "cordova-res ios && cordova-res android && node scripts/resources.js"
+  },
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    }
   },
   "contributors": [
     Jayanti Ragini Bakhla
@@ -76,17 +87,6 @@
     "ts-node": "^7.0.1",
     "tslint": "^5.20.1",
     "typescript": "^4.0.3"
-  },
-  "description": "An Ionic project",
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-device": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
-    }
   },
   "main": "karma.conf.js",
   "license": "ISC"
