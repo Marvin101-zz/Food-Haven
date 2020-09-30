@@ -24,9 +24,9 @@
     }
   },
   "contributors": [
-    Jayanti Ragini Bakhla
-    Akancha Minj
-    Nisha Munda
+    "Jayanti Ragini Bakhla",
+    "Akancha Minj",
+    "Nisha Munda"
   ],
   "private": true,
   "dependencies": {
