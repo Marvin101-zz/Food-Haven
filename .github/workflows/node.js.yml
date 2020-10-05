@@ -23,7 +23,6 @@ jobs:
     - name: actions/setup-node@v2-beta
       with:
         node-version: '12'
-        check-latest: true
     - run: npm install
     - run: npm i @angular/cli
     - run: npm i ionic/cli
