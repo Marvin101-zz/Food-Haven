@@ -39,6 +39,15 @@ ion-content {
     --padding-top: 0px;
 }
 
+ion-card {
+    --background: #42d77d;
+    //--color: #56e41e;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
 /* Container */
 
 .container {
@@ -50,18 +59,16 @@ ion-content {
     padding: 10px;
 }
 
-ion-card {
-    height: 300px;
-    --background: #42d77d;
-    //--color: #56e41e;
-    border-radius: 25px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+.container-card {
+    height: 100px;
 }
 
-ion-img {
-    // height: 250px;
-    padding-bottom: 20px;
+.tag {
+    position: absolute;
+    top: 77%;
+    left: 27%;
+    /* transform: translate(-50%, -50%); */
+    color: #ec1919;
 }
 
 // ion-content ion-toolbar {
