@@ -1,5 +1,5 @@
 ion-menu ion-content {
-    --background: var(--ion-item-background, var(--ion-background-color, #fff));
+    --background: var(--ion-item-background, var(--ion-background-color, rgb(214, 41, 41)));
 }
 
 ion-menu.md ion-content {
@@ -23,7 +23,8 @@ ion-menu.md ion-note {
 }
 
 ion-menu.md ion-list#category-list {
-    border-bottom: 1px solid var(--ion-color-step-150, #d7d8da);
+    border-bottom: 1px solid var(--ion-color-step-150, #3067d4);
+    background-color: #73849a;
 }
 
 ion-menu.md ion-list#category-list ion-list-header {

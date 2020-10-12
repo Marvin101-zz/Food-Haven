@@ -1,5 +1,5 @@
 ion-menu-button {
-    color: #d7d8da;
+    color: black;
     // --border-radius: 50px;
     //--background: var(--icon-color-primary);
     --color: #c01687;
@@ -7,7 +7,7 @@ ion-menu-button {
 }
 
 ion-toolbar {
-    --background: #383a3e;
+    --background: rgb(230, 0, 0);
     //--border-color: #3880ff;
     //--border-style: solid;
     //--border-width: 6px;
@@ -21,14 +21,15 @@ ion-toolbar {
 }
 
 ion-title {
-    color: #eb445a;
+    color: black;
     font-weight: bold;
     font-family: Forte;
     font-size: 33px;
+    padding-left: 90px;
 }
 
 ion-content {
-    --background: #4c8dff;
+    --background: #72757a;
     --color: #3880ff;
     --keyboard-offset: 0px;
     --offset-bottom: 0px;
@@ -39,18 +40,9 @@ ion-content {
     --padding-top: 0px;
 }
 
-ion-card {
-    --background: #42d77d;
-    //--color: #56e41e;
-    border-radius: 25px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-
 /* Container */
 
-.container {
+.slides-container {
     position: relative;
     max-width: 400px;
     max-height: 350px;
@@ -59,67 +51,54 @@ ion-card {
     padding: 10px;
 }
 
-.container-card {
-    height: 100px;
-}
-
-.tag {
-    position: absolute;
-    top: 77%;
-    left: 27%;
-    /* transform: translate(-50%, -50%); */
-    color: #ec1919;
-}
-
-// ion-content ion-toolbar {
-//     --background: transparent;
-// }
 ion-icon {
     color: #ad24cf;
     font-size: 24px;
 }
 
-ion-fab-button {
-    --background: #c01687;
-    --background-activated: #3880ff;
-    --background-activated-opacity: 1;
-    --background-focused: #3880ff;
-    --background-focused-opacity: 1;
-    --background-hover: #49ff38;
-    --background-hover-opacity: 1;
-    --border-color: #ff1eda;
-    --border-radius: 40%;
-    --border-style: solid;
-    --border-width: 3px;
-    --box-shadow: 0px 0px;
-    --color: #ffffff;
-    --color-activated: #3880ff;
-    --color-focused: #3880ff;
-    --color-hover: #3880ff;
-    --padding-bottom: 4px;
-    --padding-end: 4px;
-    --padding-start: 4px;
-    --padding-top: 4px;
-    --ripple-color: #1e1e1e;
-    --transition: background-color 15ms linear;
+/* Fab Button */
+
+
+
+/* Card */
+ion-card-title {
+    font-weight: bold;
+    font-family: cursive;
+    --color: #ad4d4d;
 }
 
-ion-card-title {
-    --color: #000000;
+a:link {
+    text-decoration: none;
+    color:#ad4d4d;
 }
+
+a:visited {
+    text-decoration: none;
+    color:#ad4d4d;
+}
+a:hover {
+    // text-decoration: none;
+    color:#ad4d4d;
+}
+
+a:active {
+    text-decoration: none;
+    color:#ad4d4d;
+}
+
 
 ion-card-subtitle {
     --color: #000000;
 }
 
-ion-searchbar {
-    --background: #0be6c8;
-    --cancel-button-color: #3880ff;
-    --clear-button-color: #3880ff;
-    --color: #2316db;
-    --icon-color: #3880ff;
-    --placeholder-color: #ec1919;
-    --placeholder-font-style: initial;
-    --placeholder-font-weight: 900;
-    --placeholder-opacity: 0.5;
+.container-card {
+    height: 100px;
+}
+
+ion-card {
+    //--background: #42d77d;
+    //--color: #56e41e;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
